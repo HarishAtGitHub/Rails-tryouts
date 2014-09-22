@@ -1,15 +1,18 @@
 class RepositoriesController < ApplicationController
   before_action :authenticate
-
   def show
 
   end
 
-  def new
+  def index
 
   end
 
-  def delete
+  def create
+
+  end
+
+  def destroy
 
   end
 end

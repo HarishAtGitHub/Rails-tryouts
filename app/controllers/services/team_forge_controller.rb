@@ -1,9 +1,10 @@
 class Services::TeamForgeController < ApplicationController
-  #switching it off as it is an api call (need to study more)
+  #switching it off as it is a controller for api call
   protect_from_forgery with: :null_session
+  before_action :authenticate_iaf_api
 
   def get_configuration_parameters
-    render "configuration_parameters"
+    render :configuration_parameters
   end
 
   def create_project_configuration
@@ -20,12 +21,12 @@ class Services::TeamForgeController < ApplicationController
 
   def get_ctf_project_id
     @ctf_project_id = 'proj1001'
-    render 'ctf_project_id'
+    render :ctf_project_id
   end
 
   def get_title
     @title = 'I am title'
-    render 'title'
+    render :title
   end
 
 end

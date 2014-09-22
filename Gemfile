@@ -28,6 +28,8 @@ gem 'spring',        group: :development
 
 #Teamforge conversation needs
 gem 'savon', '1.1.0'
+#gem 'teamforge-ruby', git: 'ssh://forge.collab.net:29418/teamforge-ruby', branch: 'master', ref: 'b8675e483cb36478a6d0c9a9d483cd97292db3ff', require: 'teamforge'
+gem 'teamforge', '0.2.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

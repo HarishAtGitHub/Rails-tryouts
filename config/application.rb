@@ -19,5 +19,8 @@ module CtfBinaryApp
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+    config.CTF_HOST_URL = 'http://cu036.cloud.maa.collab.net'
+    config.IAF_BASE_URL = 'http://10.2.0.163:3000/ctf-iaf/binary/repositories'
+    config.IAF_APP_NAME = 'Binary Repo'
   end
 end
