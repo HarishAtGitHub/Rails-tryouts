@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE integrated-application 
+  PUBLIC "-//CollabNet, Inc.//DTD Integrated Application Descriptor 1.0//EN"
+  "http://schema.open.collab.net/sfee50/dtd/sf-pluggable-deploy-descriptor_1_0.dtd">
+<integrated-application>
+    <name>Binary</name>
+    <baseurl>http://10.2.0.163:3000/ctf-iaf/binary/repositories</baseurl>
+    <gourl>http://10.2.0.163:3000/app/projects/go/%o</gourl> 
+    <endpoint>http://10.2.0.163:3000/services/team_forge</endpoint>
+    <servicetype>REST</servicetype>
+</integrated-application> 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE integrated-application 
+  PUBLIC "-//CollabNet, Inc.//DTD Integrated Application Descriptor 1.0//EN"
+  "http://schema.open.collab.net/sfee50/dtd/sf-pluggable-application-descriptor_1_0.dtd">
+<integrated-application>
+    <name>Binary</name>
+    <description>l10n.application.description</description>
+    <permissions>
+        <permission dapMappedTo="View">Create Packages/Repositories</permission> 
+        <permission >View Packages/Repositories</permission> 
+        <permission >Update Packages/Repositories</permission> 
+        <permission >Delete Packages/Repositories</permission> 
+    </permissions>
+    <prefix>binary</prefix>
+    <id-pattern>\w+</id-pattern>
+    <require-per-project-prefix>false</require-per-project-prefix>
+    <require-scm-integration>false</require-scm-integration>
+    <page-component>
+        <require-page-component>false</require-page-component>      
+    </page-component>
+    <config-parameters>
+        
+    </config-parameters>
+    <bundles> 
+        <bundle locale="en">
+            <key name="l10n.application.description">This is the binary app which orchestrates all the integrated apps of the category binary</key>            
+        </bundle>
+    </bundles>
+</integrated-application>
+

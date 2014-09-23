@@ -4,9 +4,21 @@ Rails-tryouts
 This is the Hello World Ruby on Rails app.
 
 To run do
+1) Install rvm and ruby (see section below)
 1) bundle install
 3) Configure postgres (see the section below)
 2) rails server -e production -p 3000
+
+Install rvm and ruby 
+====================
+refer : https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-centos-6-with-rvm
+1) sudo yum install curl
+2) curl -L get.rvm.io | bash -s stable
+3) source ~/.profile
+4) rvm requirements 
+5) rvm install 2.1.2
+6) source ~/.rvm/scripts/rvm
+7) rvm use 2.1.2 --default
 
 Configure Postgres
 ==================
