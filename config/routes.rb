@@ -20,4 +20,8 @@ Rails.application.routes.draw do
 
     end
   end
+
+  get '' => redirect('/ctf-iaf/binary/repositories') unless Rails.env.development?
+  get '*path' => redirect('/ctf-iaf/binary/repositories')
+
 end

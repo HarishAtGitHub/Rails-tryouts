@@ -23,5 +23,5 @@ Configure Postgres
    psql -d iaf_external -U iaf_dbuser
    if successful then set the password in the project's config/database.yml file
    under production category
-
+7) 
 

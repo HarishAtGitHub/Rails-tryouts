@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: ctfBinaryApp_production
-  username: ctfBinaryApp
-  password: <%= ENV['CTFBINARYAPP_DATABASE_PASSWORD'] %>
+  database: ctf_binary_prod
+  username: binary_production_user
+  password: binary_production_user
